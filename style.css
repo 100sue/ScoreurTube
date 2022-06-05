@@ -239,6 +239,53 @@ nav {
     }
 }
 
+ /* ------ Footer -------*/
+
+ .footer {
+    background: #fff;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li {
+    list-style: none;
+}
+.footer ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer ul li a img {
+    max-width: 20px;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 200px;
+}
+
+@media (max-width: 990px) {
+    .footer {
+        padding: 20px 0;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+    }
+    .footer ul {
+        margin-bottom: 20px;
+    }
+
+}
+
 
 
                     /* ------ Page : Play-video -------*/
