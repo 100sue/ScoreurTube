@@ -5,4 +5,6 @@ Developpement Front-end d'une plateforme de partage de vidéos :
 
  ## Technologies utilisées : ##
  
-- HTML5, CSS3, JavaScript, 
+- HTML5, CSS3, JavaScript.
+
+Lien vers le site : https://100sue.github.io/ScoreurTube/
